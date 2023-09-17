@@ -54,7 +54,7 @@ Performed the following data-cleaning processes:
 
 * Univariate Analysis
 
-![Alt text](<Images/Image1.png>)
+![Alt text](<Images/Image2.png>)
 
 
 * Bivariate Analysis
@@ -66,60 +66,36 @@ Performed the following data-cleaning processes:
 ![Alt text](<Images/Image1.png>)
 
 
-# MODELING
 
-#### Research Question:
-What are the significant factors influencing the severity of traffic crashes, and can they be used to predict the severity level (e.g., minor, moderate, severe)?
+## Modeling
+We used the following regression models:
 
-Prediction and Evaluation: We Predict outcomes on the test set and evaluate the model's performance using a confusion matrix and classification report.
+* Memory_Based Model using Cosine and Pearson Similarity
+* Collaborative Filtering - Using Surprise Library
 
-The model achieved an accuracy of approximately 90%. The classification report provides a detailed breakdown of performance for each class, including precision, recall, and F1-score. The weighted average F1-score gives an overall measure of the model's performance across all classes.
+* Evalustion RMSE
 
-Overall, the model appears to perform well, particularly in identifying "INCAPACITATING INJURY" cases. However, it shows lower recall for the "REPORTED, NOT EVIDENT" class, indicating potential room for improvement in identifying such cases. 
+## Conclusion
 
-#### Research Question:
-Effectiveness of Safety Equipment:
+* The best time to offer discounts to customers was the month of November which had the highest number of sales. 
+    
+* The appropriate time for ads on is in the afternoon which is the peak hours of the day that most people purchase goods.
 
-Research Question: What is the impact of safety equipment usage (e.g., seatbelts, airbags) on the occurrence and outcomes of crashes, and can we quantify their effectiveness in reducing injuries?
+* The quantity of orders made are not affected with the price of an item as there is no relation betwen the quantity and price.
 
-![Alt text](images/image-2.png)
+* Thursday and sundays are the days of the week with the highest quantity interms of purchase made.
 
-The model had the following scores:
-RMSE: 0.33
-Recall: 0.9
-Precision: 0.88
-Accuracy: 0.89
-F1-Score: 0.89
+* KNN (K-Nearest Neighbours) With Means model has an test RMSE value of 0.244 and cross validation RMSE value of 0.246.
 
-#### Research Question:
 
-Geographic Hotspots and Prevention Strategies:<br>
-Research Question: Can we identify geographic hotspots with higher crash frequencies, and what targeted prevention strategies (e.g., improved signage, traffic control) can be recommended
+* White hanging  light holder has the highest number of orders where as the pack of 72 retrosport cake has the least number of orders.
 
-![Alt text](images/image-4.png)
 
-The model had the following scores:
-RMSE: 0.58
-Recall: 0.61
-Precision: 0.72
-Accuracy: 0.67
-F1-Score: 0.66
+## Recommendation
+* The recommendation system developed will be very helpful to the customers and e-commerce companies to offer personalized product recommendation based on user preference and purchase history.
+  
+* One is also able to mitigate the product discovery challenge by highlighting relevant items, making the shopping experience more enjoyable and efficient. However we can improve this recommendation engine using Deep Learning Techniques and Deep Hybrid Models Based Recommendation, many neural building blocks can be integrated to formalize more powerful and expressive models."
+  
+## Non-Technical Presentation
 
-# Conclusions
-
-1. The predictive model demonstrated a high accuracy rate in determining accident severity, particularly for cases involving incapacitating injuries. There is room for further improvement, especially in identifying cases with reported but not evident injuries.
-
-2. Geographic analysis revealed areas with higher crash frequencies, suggesting targeted interventions like enhanced traffic enforcement and infrastructure improvements. The model predicted that areas without traffic control devices recorded injuries as compared to areas with traffic control devices. 
-
-3. Road safety In Chicago Pd is an ongoing concern that requires continuous monitoring and improvement of strategies based on the data and changing circumstances.
-
-# Recommendations
-
-Drawing upon the observations and instances mentioned above, we have the opportunity to formulate the subsequent set of recommendations:
-
- 1. Regular Monitoring and Timely Maintenance of Road Surface Conditions:
-        It is strongly advised to establish a systematic and vigilant approach to consistently monitor and proactively maintain the condition of road surfaces. Swiftly addressing issues such as potholes, cracks, and uneven surfaces is of paramount importance to ensure the safety and comfort of motorists and pedestrians. 
- 2. Fostering Collaboration with the Automotive Industry for Enhanced Vehicle Stability:
-        To synergize advancements in road safety and automotive technology, a collaborative partnership between the transportation sector and the automotive industry is highly recommended. By jointly developing cutting-edge technologies that enhance vehicle stability, such as adaptive suspension systems and advanced driver assistance features, the collective efforts can yield remarkable improvements in overall road safety.
- 3. Developing Weather-Responsive and Adaptive Road Infrastructure:
-       In order to effectively mitigate the impact of changing weather conditions on road safety and durability, it is recommended to embark on the development of road infrastructure that demonstrates a high degree of responsiveness to varying climatic factors.         
+To access the non-technical presentation click here [Link](https://docs.google.com/presentation/d/1TOd9Cb0dX8W5OLbUASLv89wSEjf93IByFdxn-rfN59U/edit?usp=sharing)
