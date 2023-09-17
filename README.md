@@ -1,6 +1,7 @@
-# A NON-STORE ONLINE BUISNESS RECOMMENDER SYSTEM
+# A NON-STORE ONLINE BUSINESS RECOMMENDER SYSTEM
 
-![Alt text](<images/How to respond at an accident scene.jpeg>)
+![Alt text](<Images/Image4.png>)
+Images/Image4.png
 
 ## INTRODUCTION
 
@@ -11,9 +12,9 @@ An advantage to online non-store retail business there is a wide selection of go
 ## PROBLEM STATEMENT
 
 Problem Statement
-Non-store online retail business faces several challenges and issues that require attention in order to succeed in the digital marketplace. various challenges such as customer engagement, product discovery, personalization, and inventory management. These processes can be tedious as they have to collect information on customer preferences, cost of items, quality of products, and durability among other factors. In most cases, these retailers are not able to get this information and therefore this can have a negative impact on their businesses. A UK-based online retail company that specializes in selling unique all-occasion gifts, catering to both individual customers and wholesalers who are the stakeholders understand the importance of a recommendation system that will help them address these challenges and enhance the customer experience.
+Non-store online retail business faces several challenges and issues that require attention in order to succeed in the digital marketplace. various challenges such as customer engagement, product discovery, personalization, and inventory management. These processes can be tedious as they have to collect information on customer preferences, cost of items, quality of products, and durability among other factors. In most cases, these retailers are not able to get this information and therefore this can have a negative impact on their businesses. A UK-based online retail company that specializes in selling unique all-occasion gifts, catering to both individual customers and wholesalers who are the stakeholders understands the importance of a recommendation system that will help them address these challenges and enhance the customer experience.
 
-From the several factors our primary objective that we aim to achieve are:
+From the several factors, our primary objective that we aim to achieve are:
 
 * enhancing customer engagement by offering personalized product recommendations based on user preferences and purchase history.
 * Mitigate the product discovery challenge by highlighting relevant items, making the shopping experience more enjoyable and efficient.
@@ -21,7 +22,7 @@ From the several factors our primary objective that we aim to achieve are:
 
 ## DATA UNDERSTANDING
 
-We will make use of data set from UCI MachineLearning Repository. It is a trsnsnational data set which contain transaction between year 2010 and 2011 for a UK-based and registered non-store online shop selling unique gifts
+We will make use of the data set from the UCI MachineLearning Repository. It is a transnational data set which contains transaction between the year 2010 and 2011 for a UK-based and registered non-store online shop selling unique gifts
  
 Description of Columns:  
 The data set has the following 8 columns which are:
@@ -36,14 +37,14 @@ The data set has the following 8 columns which are:
 * `Country` -Country name. Nominal, the name of the country where each customer resides.
 # DATA CLEANING
 
-Performed the following data cleaning processes:
+Performed the following data-cleaning processes:
 * Imported the data.
 
 * Changed the date type.
 
 * Dropping duplicate values.
 
-* Removed outliers in Unit price and Quantity column.
+* Removed outliers in the Unit price and Quantity column.
 
 * Dropped all the null values in the column.
 
@@ -53,16 +54,16 @@ Performed the following data cleaning processes:
 
 * Univariate Analysis
 
-![Alt text](images/image.png)
+![Alt text](<Images/Image1.png>)
 
 
 * Bivariate Analysis
 
-![Alt text](images/image-1.png)
+![Alt text](<Images/Image3.png>)
 
 * Multivariate Analysis
 
-![Alt text](images/image-1.png)
+![Alt text](<Images/Image1.png>)
 
 
 # MODELING
